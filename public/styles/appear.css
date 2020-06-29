@@ -1,0 +1,189 @@
+@media (min-width: 320px) and (max-width: 321px) {
+  .im_q {
+    width: 100%;
+    height: 360px;
+    left: 0%;
+  }
+  .que {
+    left: 0;
+  }
+  .quest {
+    left: 0;
+    width: 100%;
+  }
+  .answer {
+    width: 100%;
+    left: 0%;
+  }
+  #ans {
+    width: 86%;
+    left: 7%;
+  }
+  .countDown1 {
+    width: 100%;
+    top: -13px;
+    left: -32%;
+    font-size: 16px;
+  }
+  .counter {
+    top: 229px;
+    width: 42px;
+    height: 42px;
+    left: 93%;
+    font-size: 23px;
+  }
+}
+@media (min-width: 320px) and (max-width: 1000px) and (orientation: portrait) {
+  .im_q {
+    width: 100%;
+    height: 360px;
+    left: 0%;
+  }
+  .que {
+    left: 0;
+  }
+  .quest {
+    left: 0;
+    width: 100%;
+  }
+  .answer {
+    width: 100%;
+    left: 0%;
+  }
+  #ans {
+    width: 86%;
+    left: 7%;
+  }
+  .countDown1 {
+    width: 100%;
+    top: -13px;
+    left: -32%;
+    font-size: 19px;
+  }
+  .counter {
+    top: 229px;
+    width: 50px;
+    height: 50px;
+    left: 93%;
+    font-size: 30px;
+  }
+  .wrap_dig {
+    width: 90%;
+    top: -10px;
+    grid-template-columns: 100%;
+    grid-gap: 0px;
+    left: 0;
+    grid-template-rows: repeat(8, 1fr);
+    min-width: 100%;
+  }
+  .dignity2 {
+    display: grid;
+    justify-self: center;
+  }
+  #bronze2 {
+    position: relative;
+    top: -50px;
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+  }
+  #dig_get {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    position: relative;
+    top: -160px;
+  }
+  #silver2 {
+    position: relative;
+    top: -20px;
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+  }
+  #text_silver {
+    position: relative;
+    top: -120px;
+    grid-row: 5 / 6;
+    grid-column: 1 / 2;
+  }
+  #gold_super {
+    position: relative;
+    top: -120px;
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+  }
+  #text_gold {
+    position: relative;
+    top: -220px;
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+  }
+  #dig_get2 {
+    grid-column: 1 / 2;
+    position: relative;
+    top: -60px;
+  }
+  .wrap2_appear {
+    height: 1515px;
+  }
+  .rais2 {
+    position: relative;
+    width: 88%;
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+    padding: 20px;
+    top: -50px;
+  }
+  .wrap_starto {
+    width: 90%;
+    position: relative;
+    left: 9%;
+    top: -87px;
+  }
+}
+@media (min-width: 320px) and (max-width: 1000px) and (orientation: landscape) {
+  .im_q {
+    width: 100%;
+    height: 360px;
+    left: 0%;
+  }
+  .que {
+    left: 0;
+  }
+  .quest {
+    left: 0;
+    width: 100%;
+  }
+  .answer {
+    width: 100%;
+    left: 0%;
+  }
+  #ans {
+    width: 86%;
+    left: 7%;
+  }
+  .countDown1 {
+    width: 100%;
+    top: -13px;
+    left: -32%;
+    font-size: 19px;
+  }
+  .counter {
+    top: 229px;
+    width: 50px;
+    height: 50px;
+    left: 95%;
+    font-size: 30px;
+  }
+  .wrap_wrap {
+    width: 363vh;
+  }
+  .wrap2_appear {
+    width: 100%;
+    height: 847px;
+  }
+  .wrap_dig {
+    left: 9%;
+  }
+  .starto {
+    font-size: 26px;
+  }
+}

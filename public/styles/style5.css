@@ -1,0 +1,273 @@
+.wrap_desc {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 90%;
+  left: 10%;
+}
+.comm {
+  width: 50%;
+}
+.special {
+  color: #00d2ff;
+  font-size: 20px;
+  font-weight:400;
+  grid-column: 1 / 3;
+}
+#done {
+  position: relative;
+  width: 30px;
+  top: 16px;
+}
+.vict {
+  position: relative;
+  top: -80px;
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  box-shadow: 4px -4px 10px #00d2ff;
+  border-radius: 20px 20px 20px 0;
+  padding: 20px;
+}
+.desc {
+      top: -80px;
+      height: 200px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: -4px -4px 10px #00d2ff;
+      border-radius: 20px 20px 0 20px;
+}
+.comm.try, .comm.desc {
+  text-align: left;
+  position: relative;
+  left: 20%;
+}
+.can {
+  position: relative;
+  height: 100px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 4px -4px 10px #00d2ff;
+  border-radius: 20px 20px 20px 0;
+}
+.comm.can, .comm.vict {
+  width: 70%;
+
+}
+.wrap_foot {
+  position: relative;
+  top: -800px;
+  height: 200px;
+}
+#forg {
+  position: relative;
+  top: 100px;
+}
+.linko {
+  text-decoration: none;
+  color: white;
+}
+.wrap_cong {
+  position: relative;
+  top: -1600px;
+}
+#cloudy {
+      position: absolute;
+      width: 100%;
+      height: auto;
+      top: -150px;
+      left: 0px;
+}
+.wrap_cloud {
+  position: relative;
+  top: -300px;
+  max-height: 1500px;
+  width: 100%;
+  height: 1000px;
+  overflow: hidden;
+}
+.com_wrap {
+  position: relative;
+  height: 1000px;
+}
+.gold {
+      position: relative;
+      width: 200px;
+      right: 100px;
+      z-index: 1;
+}
+.gold > img {
+  width: 100px;
+  position: relative;
+  left: -100px;
+  top: -150px;
+}
+.time_11 {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 32%;
+      float: right;
+      left: 200px;
+      top: 500px;
+      z-index: 1000;
+      color: white;
+}
+.congr {
+  position: relative;
+  color: white;
+  z-index: 1000;
+}
+#same {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  left: 50px;
+  text-align: center;
+  box-shadow: 1px 1px 5px;
+  border-radius: 40px;
+  padding: 10px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+  padding-left: 20px;
+  left: 300px;
+}
+#same:hover {
+  transform: scale(1.1);
+}
+.now_time {
+  position: relative;
+  text-align: center;
+  border-radius: 40px;
+  padding: 20px;
+  transition: 0.2s;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  background-color: #00d2ff;
+  letter-spacing: 2px;
+  z-index: 1;
+  left: 200px;
+}
+.now_time:hover {
+  transform: scale(1.1);
+}
+.registration {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 500px;
+  top: 25px;
+}
+.field {
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  padding-left: 20px;
+  background-color: #3a7bd5;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 35px;
+  border-right: none;
+  border-top: none;
+  width: 70%;
+  top: 60px;
+  left: 14%;
+  position: relative;
+  grid-column: 1 / 3;
+}
+.field::placeholder {
+  color: rgb(255, 255, 255, 0.5);
+  font-size: 15px;
+}
+.ejemplo {
+  z-index: 1000;
+}
+.na {
+    position: relative;
+    left: 40%;
+    width: 100px;
+}
+.commo {
+  position: relative;
+  float: left;
+  width: 400px;
+  left: 20%;
+  border: 1px solid grey;
+}
+.mistakes {
+  position: absolute;
+  left: 2%;
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.mess {
+  min-width: 300px;
+  height: 40px;
+  background-color: #DF01A5;
+  color: rgb(255, 255, 255, 0.8);
+  margin-right: 15px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px 10px 10px 0px;
+}
+.hey {
+  position: relative;
+  left: 20%;
+  width: 200px;
+}
+.ourour {
+  position: absolute;
+  top: 138px;
+  left: 65%;
+  width: 55px;
+  height: 55px;
+  z-index: 10;
+  color: white;
+  background-color: #FE2E64;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #1c1c1c;
+  font-size: 27px;
+}
+.victorine {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.rapido {
+  left: 30%;
+}
+.start1 {
+  position: relative;
+  float: right;
+  top: 100px;
+  z-index: 1000;
+  color: black;
+  left: -300px;
+}
+.wrap_appear {
+  background-image: linear-gradient(-10deg, #00d2ff, #3a7bd5);
+  color: white;
+}
+.com_gold {
+  position: relative;
+  width: 30px;
+  left: -10px;
+  top: 10px;
+}
+.regi2 {
+  position: relative;
+  text-decoration: none;
+  color: #2EFE2E;
+  transition: 0.2s;
+}
+.regi2:hover {
+  color: #00d2ff;
+}

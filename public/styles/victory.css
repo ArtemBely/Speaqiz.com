@@ -1,0 +1,246 @@
+@media (min-width: 320px) and (max-width: 321px) {
+  .congr {
+    font-size: 12px;
+  }
+  .wrap_coin {
+    width: 86%;
+    left: 0;
+    height: 130px;
+    padding: 17px;
+    text-align: center;
+  }
+  .gold {
+    right: 0;
+  }
+  .gold > img {
+    left: 72%;
+    top: 42px;
+    width: 50px;
+  }
+  .time_11 {
+    float: left;
+    width: 2%;
+    left: 2%;
+    top: 589px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  #spaceman {
+    top: 466px;
+    left: 6%;
+    width: 200px;
+  }
+  .com_wrap {
+    height: 842px;
+  }
+  .now_time {
+    left: 43%;
+  }
+  #same {
+    left: 43%;
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    top: 40px;
+    font-size: 13px;
+  }
+  .wrap_foo {
+    top: -1400px;
+    left: 0;
+    width: 85%;
+  }
+  .descr {
+    left: 13%;
+  }
+  .descr_form {
+    top: 471px;
+    display: grid;
+    width: 91%;
+    height: 323px;
+    font-size: 12px;
+    z-index: 1000;
+  }
+  .wrap_cloud {
+    top: -325px;
+  }
+  .descr_form > input {
+    width: 97%;
+  }
+  #but_quest {
+    top: 48px;
+    left: -8px;
+  }
+  .wrap_file {
+    top: 26px;
+    width: 110%;
+    left: -8px;
+  }
+}
+@media (min-width: 321px) and (max-width: 1000px) and (orientation: portrait) {
+  .congr {
+      font-size: 13px;
+      position: relative;
+      top: -10px;
+  }
+  .wrap_coin {
+    width: 86%;
+    left: 0;
+    height: 125px;
+    padding: 17px;
+    text-align: center;
+  }
+  .gold {
+    right: 0;
+  }
+  .gold > img {
+    left: 90%;
+    top: 42px;
+    width: 55px;
+  }
+  .time_11 {
+    float: left;
+    width: 2%;
+    left: 0;
+    top: 589px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  #spaceman {
+    top: 466px;
+    left: 6%;
+    width: 225px;
+  }
+  .com_wrap {
+    height: 842px;
+  }
+  .now_time {
+    left: 45%;
+    width: 120%;
+    top: 15px;
+    padding: 18px;
+  }
+  #same {
+    left: 45%;
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    top: 40px;
+    font-size: 13px;
+    width: 120%;
+  }
+
+  .wrap_foo {
+    top: -1400px;
+    left: 0;
+    width: 85%;
+  }
+  .descr {
+    left: 13%;
+  }
+  .descr_form {
+    top: 471px;
+    display: grid;
+    width: 91%;
+    height: 323px;
+    font-size: 12px;
+    z-index: 1000;
+  }
+  .wrap_cloud {
+    top: -325px;
+  }
+  .descr_form > input {
+    width: 97%;
+  }
+  #but_quest {
+    top: 48px;
+    left: -8px;
+  }
+  .wrap_file {
+    top: 26px;
+    width: 110%;
+    left: -8px;
+  }
+}
+@media (min-width: 321px) and (max-width: 1000px) and (orientation: landscape) {
+  .congr {
+      font-size: 14px;
+  }
+  .wrap_coin {
+    width: 96%;
+    left: 0;
+    height: 105px;
+    padding: 17px;
+    text-align: center;
+  }
+  .gold {
+    left: 33%;
+    top: 30px;
+  }
+  .gold > img {
+    left: 90%;
+    top: 42px;
+    width: 55px;
+  }
+  .time_11 {
+    float: left;
+    width: 2%;
+    left: 47%;
+    top: 336px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  #spaceman {
+    top: 408px;
+    left: 10%;
+    width: 280px;
+  }
+  .com_wrap {
+    hheight: 767px;
+  }
+  .wrap_cloud {
+    height: 740px;
+  }
+  .now_time {
+    left: 45%;
+    width: 100%;
+    top: 15px;
+  }
+  #same {
+    left: 45%;
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    top: 40px;
+    font-size: 13px;
+    width: 102%;
+  }
+
+  .wrap_foo {
+    top: -1400px;
+    left: 0;
+    width: 85%;
+  }
+  .descr {
+    left: 13%;
+  }
+  .descr_form {
+    top: 716px;
+    display: grid;
+    width: 93%;
+    height: 323px;
+    font-size: 12px;
+    z-index: 1000;
+  }
+  .wrap_cloud {
+    top: -325px;
+  }
+  .descr_form > input {
+    width: 97%;
+  }
+  #but_quest {
+    top: 48px;
+    left: -8px;
+  }
+  .wrap_file {
+    top: 26px;
+    width: 110%;
+    left: -8px;
+  }
+}

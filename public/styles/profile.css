@@ -1,0 +1,754 @@
+@media (min-width: 320px) and (max-width: 321px) {
+  .wrap_profile {
+    width: 95%;
+    height: 460px;
+    left: 8px;
+    top: 25px;
+  }
+  .profile_image {
+    width: 153px;
+  }
+  .com_data {
+    top: -101px;
+    left: 80%;
+  }
+  .ourour {
+    width: 40px;
+    height: 40px;
+    top: 34px;
+    left: 80%;
+    font-size: 16px;
+    border: none;
+  }
+  .additional {
+    width: 197%;
+    height: 40px;
+    left: -5px;
+  }
+  .log {
+    width: 280%;
+    left: -190px;
+    top: 65px;
+  }
+  .lastname_1 {
+    top: -37px;
+  }
+  .wrap_full1 {
+    font-size: 13px;
+  }
+  .dir_4, #telephone_2 {
+    grid-column: 2 / 4;
+  }
+  #loc {
+    width: 41px;
+    left: -15px;
+  }
+  #ph {
+    width: 30px;
+    left: -17px;
+  }
+  #my_phone {
+    left: -13px;
+  }
+  #gold1, #gold2, #gold3 {
+    width: 24px;
+  }
+  #gold1 {
+    left: -20px;
+  }
+  #gold2 {
+    left: -8px;
+  }
+  #gold3 {
+    left: -32px;
+  }
+  .wrap_nav {
+    left: 8% !important;
+    width: 80%;
+    top: 54px;
+    height: 45px;
+  }
+  .change_form {
+    width: 95%;
+    left: 1%;
+    height: 150px;
+    margin-top: -246px !important;
+  }
+  .com_change {
+    left: 10%;
+    margin-right: 16px;
+    height: 27px;
+    width: 84%;
+  }
+  .change_data {
+    font-size: 10px;
+    text-align: center;
+  }
+  #my_coins {
+    left: -17px;
+  }
+  #my_city {
+    left: 0px;
+  }
+  #but_2 {
+    position: relative;
+    grid-column: 1 / 4;
+    grid-row: 5 / 6;
+    top: 22px;
+    width: 89%;
+    left: 7%;
+    height: 40px;
+    border-radius: 20px;
+  }
+  .info_about {
+    width: 21px;
+  }
+  .wrap_full22 {
+    grid-gap: 0 49px;
+  }
+  .wrap_scores {
+    width: 100%;
+    position: relative;
+    left: -32%;
+    height: 450px;
+    box-shadow: none;
+    top: 274px;
+  }
+  #cup {
+    display: none;
+  }
+  .start2 {
+    letter-spacing: 1px;
+    width: 157%;
+    left: 0;
+    height: 50px;
+    top: 100px;
+    background-color: #00d2ff;
+    box-shadow: 0 0 10px;
+    font-size: 20px;
+    z-index: 1000;
+  }
+  .general_info {
+    top: 106px;
+    left: 7%;
+  }
+  .profile_zone {
+    top: 237px;
+    position: relative;
+    width: 100%;
+    border: none;
+    height: 520px;
+    left: 2px;
+  }
+  .wrap_full {
+    top: -52px;
+    width: 95%;
+    height: 393px;
+  }
+  .my_success {
+    position: relative;
+    height: 50px;
+    left: 13%;
+    top: 30px;
+  }
+  .dignity {
+    left: 30%;
+    width: 82px;
+    margin: 18px;
+  }
+  .wrap_rait {
+    width: 322%;
+    height: 600px;
+    left: -223px;
+    top: 765px;
+    max-width: 600px;
+    box-shadow: 0 0 20px white;
+    border-radius: 0;
+    padding-left: 9px;
+    padding-top: 9px;
+    padding-bottom: 0px;
+  }
+  .wrap_part2 {
+    font-size: 17px;
+    top: -79px;
+    width: 118.3%;
+  }
+  .raiting {
+    top: -374px;
+    left: -37px;
+  }
+  .wrap_each {
+    left: 23px;
+  }
+  .wrap_part, .wrap_score, .place {
+    font-size: 17px;
+    width: 91%;
+  }
+  .wrap_score {
+    left: 55px;
+  }
+  .wrap_part {
+    left: 30px;
+  }
+  .place1, .place2, .place3, .place4, .place5 {
+    font-size: 27px;
+  }
+  .place1 {
+    top: 22px;
+  }
+  .place2 {
+    top: 28px;
+  }
+  .place3 {
+    top: 36px;
+  }
+  .place4 {
+    top: 41px;
+  }
+  .place5 {
+    top: 37px;
+  }
+  #goldy {
+    width: 35px;
+    top: 47px;
+    left: 0px;
+  }
+  .sCore {
+    font-size: 20px;
+  }
+  .naLa {
+    font-size: 10px;
+    width: 113px;
+  }
+  .uniq {
+    position: absolute;
+    left: 2%;
+    top: 183px;
+    z-index: 11;
+    height: 25px;
+    background-color: #DF0101;
+    border-radius: 10px 10px 10px 0px;
+    color: white;
+    max-width: 251px;
+    padding-top: 10px;
+    padding-left: 10px;
+    min-width: 295px;
+    font-size: 10px;
+    width: 46%;
+    text-align: center;
+  }
+  .suc_2 {
+    width: 20%;
+    left: 20%;
+    top: 60px;
+    height: 36px;
+    min-width: 240px;
+    font-size: 12px;
+  }
+}
+@media (min-width: 321px) and (max-width: 1000px) and (orientation: portrait) {
+  .wrap_profile {
+    width: 95%;
+    height: 460px;
+    left: 8px;
+    top: 25px;
+  }
+  .profile_image {
+    width: 153px;
+  }
+  .com_data {
+    top: -101px;
+    left: 80%;
+  }
+  .ourour {
+    width: 40px;
+    height: 40px;
+    top: 34px;
+    left: 80%;
+    font-size: 16px;
+    border: none;
+  }
+  .additional {
+    width: 229%;
+    height: 40px;
+    left: -5px;
+  }
+  .log {
+    width: 328%;
+    left: -251px;
+    top: 65px;
+  }
+  .lastname_1 {
+    top: -37px;
+  }
+  .wrap_full1 {
+    font-size: 13px;
+  }
+  .dir_4, #telephone_2 {
+    grid-column: 2 / 4;
+  }
+  #loc {
+    width: 41px;
+    left: -15px;
+  }
+  #ph {
+    width: 30px;
+    left: -17px;
+  }
+  #my_phone {
+    left: -13px;
+  }
+  #gold1, #gold2, #gold3 {
+    width: 24px;
+  }
+  #gold1 {
+    left: -20px;
+  }
+  #gold2 {
+    left: -8px;
+  }
+  #gold3 {
+    left: -32px;
+  }
+  .wrap_nav {
+    left: 8% !important;
+    width: 80%;
+    top: 54px;
+    height: 45px;
+  }
+  .change_form {
+    width: 95%;
+    left: 1%;
+    height: 150px;
+    margin-top: -246px !important;
+  }
+  .com_change {
+    left: 10%;
+    margin-right: 16px;
+    height: 27px;
+    width: 84%;
+  }
+  .change_data {
+    font-size: 10px;
+    text-align: center;
+  }
+  #my_coins {
+    left: -17px;
+  }
+  #my_city {
+    left: 0px;
+  }
+  #but_2 {
+    position: relative;
+    grid-column: 1 / 4;
+    grid-row: 5 / 6;
+    top: 22px;
+    width: 89%;
+    left: 7%;
+    height: 40px;
+    border-radius: 20px;
+  }
+  .info_about {
+    width: 21px;
+  }
+  .wrap_full22 {
+    grid-gap: 0 109px;
+  }
+  .wrap_scores {
+    width: 104%;
+    position: relative;
+    left: -32%;
+    height: 450px;
+    box-shadow: none;
+    top: 360px;
+  }
+  #cup {
+    display: none;
+  }
+  .start2 {
+    letter-spacing: 1px;
+    width: 157%;
+    left: 0;
+    height: 50px;
+    top: 43px;
+    background-color: #00d2ff;
+    box-shadow: 0 0 10px;
+    font-size: 20px;
+    z-index: 1000;
+  }
+  .general_info {
+    top: 106px;
+    left: 7%;
+  }
+  .profile_zone {
+    top: 239px;
+    position: relative;
+    width: 100%;
+    border: none;
+    height: 520px;
+    left: 7%;
+  }
+  .wrap_full {
+    top: -52px;
+    width: 95%;
+    height: 393px;
+  }
+  .my_success {
+    position: relative;
+    height: 50px;
+    left: 14%;
+    top: 30px;
+  }
+  .dignity {
+    left: 30%;
+    width: 100px;
+    margin: 20px;
+  }
+  .wrap_rait {
+    width: 325%;
+    height: 600px;
+    left: 0;
+    top: 178px;
+    max-width: 600px;
+    box-shadow: 0 0 20px white;
+    border-radius: 0;
+    padding-left: 9px;
+    padding-top: 9px;
+    padding-bottom: 0px;
+    grid-column: 1 / 2;
+  }
+  .wrap_part2 {
+    font-size: 17px;
+    top: -25px;
+    width: 115%;
+  }
+  .raiting {
+    top: -323px;
+    left: -37px;
+  }
+  .wrap_each {
+    left: 23px;
+  }
+  .wrap_part, .wrap_score, .place {
+    font-size: 17px;
+    width: 91%;
+    top: 50px;
+  }
+  .wrap_score {
+    left: 68px;
+  }
+  .wrap_part {
+    left: 38px;
+  }
+  .place1, .place2, .place3, .place4, .place5 {
+    font-size: 27px;
+  }
+  .place1 {
+    top: 72px;
+  }
+  .place2 {
+    top: 78px;
+  }
+  .place3 {
+    top: 86px;
+  }
+  .place4 {
+    top: 91px;
+  }
+  .place5 {
+    top: 87px;
+  }
+  #goldy {
+    width: 35px;
+    top: 95px;
+    left: 0px;
+  }
+  .sCore {
+    font-size: 20px;
+  }
+  .naLa {
+    font-size: 10px;
+    width: 113px;
+  }
+  .uniq {
+    position: absolute;
+    left: 9%;
+    top: 183px;
+    z-index: 11;
+    height: 25px;
+    background-color: #DF0101;
+    border-radius: 10px 10px 10px 0px;
+    color: white;
+    max-width: 251px;
+    padding-top: 10px;
+    padding-left: 10px;
+    min-width: 295px;
+    font-size: 10px;
+    width: 46%;
+    text-align: center;
+  }
+  .suc_2 {
+    width: 20%;
+    left: 31%;
+    top: 60px;
+    height: 36px;
+    min-width: 240px;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 1000px) and (orientation: landscape) {
+  .wrap_profile {
+    width: 95%;
+    height: 460px;
+    left: 8px;
+    top: 25px;
+  }
+  .profile_image {
+    width: 153px;
+  }
+  .com_data {
+    top: -101px;
+    left: 80%;
+  }
+  .ourour {
+    width: 40px;
+    height: 40px;
+    top: 34px;
+    left: 80%;
+    font-size: 16px;
+    border: none;
+  }
+  .additional {
+    width: 229%;
+    height: 40px;
+    left: 52%;
+  }
+  .log {
+    width: 228%;
+    left: -110%;
+    top: 65px;
+  }
+  .lastname_1 {
+    top: -37px;
+  }
+  .wrap_full1 {
+    font-size: 13px;
+  }
+  .dir_4, #telephone_2 {
+    grid-column: 2 / 4;
+  }
+  #loc {
+    width: 41px;
+    left: -15px;
+  }
+  #ph {
+    width: 30px;
+    left: -17px;
+  }
+  #my_phone {
+    left: -13px;
+  }
+  #gold1, #gold2, #gold3 {
+    width: 24px;
+  }
+  #gold1 {
+    left: -20px;
+  }
+  #gold2 {
+    left: -8px;
+  }
+  #gold3 {
+    left: -32px;
+  }
+  .wrap_nav {
+    left: 8% !important;
+    width: 80%;
+    top: 54px;
+    height: 45px;
+  }
+  .change_form {
+    width: 95%;
+    left: 1%;
+    height: 150px;
+    margin-top: -246px !important;
+  }
+  .com_change {
+    left: 10%;
+    margin-right: 16px;
+    height: 27px;
+    width: 84%;
+  }
+  .change_data {
+    font-size: 10px;
+    text-align: center;
+  }
+  #my_coins {
+    left: -17px;
+  }
+  #my_city {
+    left: 0px;
+  }
+  #but_2 {
+    position: relative;
+    grid-column: 1 / 4;
+    grid-row: 5 / 6;
+    top: 22px;
+    width: 89%;
+    left: 7%;
+    height: 40px;
+    border-radius: 20px;
+  }
+  .info_about {
+    width: 21px;
+  }
+  .wrap_full22 {
+    grid-gap: 0 109px;
+  }
+  .wrap_scores {
+    width: 104%;
+    position: relative;
+    left: -32%;
+    height: 450px;
+    box-shadow: none;
+    top: 274px;
+  }
+  #cup {
+    display: none;
+  }
+  .start2 {
+    letter-spacing: 1px;
+    width: 157%;
+    left: 0;
+    height: 50px;
+    top: 100px;
+    background-color: #00d2ff;
+    box-shadow: 0 0 10px;
+    font-size: 20px;
+    z-index: 1000;
+  }
+  .general_info {
+    top: 106px;
+    left: 7%;
+  }
+  .profile_zone {
+    top: 230px;
+    position: relative;
+    width: 100%;
+    border: none;
+    height: 520px;
+    left: 50%;
+  }
+  .wrap_full {
+    top: -52px;
+    width: 95%;
+    height: 393px;
+  }
+  .my_success {
+    position: relative;
+    height: 50px;
+    left: 34%;
+    top: 30px;
+    width: 200px;
+  }
+  .dignity {
+    left: 0%;
+    width: 100px;
+    margin: 13px;
+    margin-left: 100px;
+  }
+  .wrap_rait {
+    width: 327%;
+    height: 600px;
+    top: 80px;
+    left: 0;
+    max-width: 600px;
+    box-shadow: 0 0 20px white;
+    border-radius: 0;
+    padding-left: 9px;
+    padding-top: 9px;
+    padding-bottom: 0px;
+    grid-column: 1 / 2;
+  }
+  .wrap_part2 {
+    font-size: 17px;
+    top: -25px;
+    width: 115%;
+  }
+  .raiting {
+    top: -323px;
+    left: -37px;
+  }
+  .wrap_each {
+    left: 23px;
+  }
+  .wrap_part, .wrap_score, .place {
+    font-size: 17px;
+    width: 91%;
+    top: 50px;
+  }
+  .wrap_score {
+    left: 68px;
+  }
+  .wrap_part {
+    left: 38px;
+  }
+  .place1, .place2, .place3, .place4, .place5 {
+    font-size: 27px;
+  }
+  .place1 {
+    top: 72px;
+  }
+  .place2 {
+    top: 78px;
+  }
+  .place3 {
+    top: 86px;
+  }
+  .place4 {
+    top: 91px;
+  }
+  .place5 {
+    top: 87px;
+  }
+  #goldy {
+    width: 35px;
+    top: 95px;
+    left: 0px;
+  }
+  .sCore {
+    font-size: 20px;
+  }
+  .naLa {
+    font-size: 10px;
+    width: 113px;
+  }
+  .uniq {
+    position: absolute;
+    left: 9%;
+    top: 183px;
+    z-index: 11;
+    height: 25px;
+    background-color: #DF0101;
+    border-radius: 10px 10px 10px 0px;
+    color: white;
+    max-width: 251px;
+    padding-top: 10px;
+    padding-left: 10px;
+    min-width: 295px;
+    font-size: 10px;
+    width: 46%;
+    text-align: center;
+  }
+  .suc_2 {
+    width: 20%;
+    left: 31%;
+    top: 60px;
+    height: 36px;
+    min-width: 240px;
+    font-size: 12px;
+  }
+  .main_2 {
+    height: 1350px;
+  }
+}

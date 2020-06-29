@@ -1,0 +1,207 @@
+ @media (min-width: 320px) and (max-width: 321px) {
+   .wrap_form {
+       border-radius: 0;
+       border: none;
+       width: 70%;
+       top: 56px;
+   }
+   .agree {
+       width: 287px;
+       top: -5px;
+       font-size: 10px;
+       left: 6%;
+   }
+   .sub2 {
+        top: 120px;
+        width: 84%;
+        left: 12%;
+   }
+   .mistakes {
+         grid-gap: 10px;
+   }
+   .mess {
+      min-width: 59px;
+      height: 30px;
+      width: 94%;
+      margin-right: 32px;
+      font-size: 8px;
+      padding-left: 5px;
+   }
+   .crypto_wrap {
+      width: 100%;
+   }
+   .launch_empty > img {
+      display: none;
+   }
+   .sky_22, .think2, .privacy2 {
+     display: none
+   }
+   .mobile_form {
+      display: block;
+      color: white;
+      letter-spacing: 1px;
+      left: 22%;
+      position: relative;
+      text-align: center;
+   }
+   .registration {
+      top: -8px;
+   }
+   .wrap_reggy {
+     height: 160vh !important;
+   }
+   .suc {
+      top: 7px;
+      padding-left: 15px;
+      height: 94px;
+   }
+   .launch {
+     display: none;
+   }
+ }
+ @media (min-width: 322px) and (max-width: 1000px) and (orientation: portrait) {
+   .wrap_form {
+       border-radius: 0;
+       border: none;
+       width: 92%;
+       top: 56px;
+   }
+   .agree {
+       width: 287px;
+       top: 27px;
+       font-size: 10px;
+       left: -5%;
+   }
+   .sub2 {
+        top: 150px;
+        width: 84%;
+        left: 12%;
+   }
+   .mistakes {
+         grid-gap: 10px;
+   }
+   .mess {
+      min-width: 59px;
+      height: 30px;
+      width: 94%;
+      margin-right: 32px;
+      font-size: 8px;
+      padding-left: 5px;
+   }
+   .crypto_wrap {
+      width: 100%;
+   }
+   .launch_empty > img {
+      display: none;
+   }
+   .privacy2 {
+      top: -10px;
+      left: -3%;
+      font-size: 10px;
+      width: 116%;
+   }
+   #th2 {
+       top: -64px;
+       left: 133px;
+   }
+   #ink2 {
+     left: 200px;
+     top: -47px;
+   }
+   .sky_22 {
+      left: 184px;
+      grid-column: 1 / 3;
+      top: -79px;
+   }
+   .mobile_form {
+      display: block;
+      color: white;
+      letter-spacing: 1px;
+      left: 5%;
+      position: relative;
+      text-align: center;
+   }
+   .registration {
+      top: -8px;
+   }
+   .suc {
+      top: 7px;
+      padding-left: 15px;
+      height: 94px;
+   }
+   .launch {
+      display: none;
+   }
+   .gen_wrap {
+     height: 1700px;
+   }
+ }
+@media (min-width: 322px) and (max-width: 1000px) and (orientation: landscape) {
+  .launch_empty {
+      display: none;
+  }
+  .mistakes {
+        grid-gap: 10px;
+  }
+  .mess {
+     min-width: 59px;
+     height: 30px;
+     width: 94%;
+     margin-right: 32px;
+     font-size: 8px;
+     padding-left: 5px;
+  }
+  .agree {
+    top: 57px;
+    left: 15%;
+    font-size: 10px;
+    width: 100%;
+  }
+  .sub2 {
+    top: 96px;
+    width: 40%;
+    height: 42px;
+    left: 12%;
+  }
+  .crypto_wrap {
+    display: none;
+  }
+  .wrap_form {
+    width: 89%;
+    border: none;
+    border-radius: 0px;
+    height: 225px;
+  }
+  .registration {
+    height: 70vh;
+    top: -105px;
+  }
+  .mobile_form {
+    display: block;
+    color: white;
+    letter-spacing: 1px;
+    left: 5%;
+    position: relative;
+    text-align: center;
+    top: -94px;
+  }
+  .wrap_reggy {
+    height: 170vh !important;
+  }
+  .suc {
+     top: 7px;
+     padding-left: 15px;
+     height: 94px;
+  }
+  .launch {
+    display: none;
+  }
+  .gen_wrap {
+    height: 1700px;
+  }
+}
+@media (min-width: 767px) and (max-width: 769px) and (orientation: portrait) {
+  .agree, .sky_22, .think2, .privacy2 {
+    display: none;
+  }
+}
