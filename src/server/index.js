@@ -99,9 +99,14 @@ promise
             <title>SSR</title>
               <link rel="stylesheet" type="text/css" href="main.css">
                <meta name="viewport" content="width=device-width, initial-scale=1">
+               <meta name="keywords" content="Английский, викторина, учить язык, мотивация, знания, саморазвитие, развитие,
+               английский язык, лидер, выучить английский язык быстро, бесплатно, участие в викторине, баллы, повысить навыки английского языка,
+               задавать свой вопрос" />
+               <meta name="description" content="Участвуй в викторине и учи английский бесплатно" />
                 <script src='bundle.js' defer></script>
                   <script>window.__INITIAL_DATA__ = ${serialize(data)}</script>
                    <script>window.__INITIAL_STATE__ = ${serialize(cond)}</script>
+                   <title>Практикуй английский в викторине!</title>
                     </head>
                   <body>
                  <div id="app">
