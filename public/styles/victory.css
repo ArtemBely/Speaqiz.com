@@ -18,13 +18,21 @@
     width: 50px;
   }
   .time_11 {
-    float: left;
-    width: 2%;
-    left: 2%;
-    top: 589px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
+      float: left;
+      width: 2%;
+      left: 2%;
+      top: 589px;
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+      -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }  .time_11 > *:nth-child(1) {
+      -ms-grid-row: 1;
+      -ms-grid-column: 1;
+    }  .time_11 > *:nth-child(2) {
+      -ms-grid-row: 2;
+      -ms-grid-column: 1;
+    }
   #spaceman {
     top: 466px;
     left: 6%;
@@ -37,12 +45,16 @@
     left: 43%;
   }
   #same {
-    left: 43%;
-    grid-row: 2 / 3;
-    grid-column: 1 / 2;
-    top: 40px;
-    font-size: 13px;
-  }
+     left: 43%;
+     -ms-grid-row: 2;
+     -ms-grid-row-span: 1;
+     grid-row: 2 / 3;
+     -ms-grid-column: 1;
+     -ms-grid-column-span: 1;
+     grid-column: 1 / 2;
+     top: 40px;
+     font-size: 13px;
+   }
   .wrap_foo {
     top: -1400px;
     left: 0;
@@ -52,13 +64,14 @@
     left: 13%;
   }
   .descr_form {
-    top: 471px;
-    display: grid;
-    width: 91%;
-    height: 323px;
-    font-size: 12px;
-    z-index: 1000;
-  }
+      top: 471px;
+      display: -ms-grid;
+      display: grid;
+      width: 91%;
+      height: 323px;
+      font-size: 12px;
+      z-index: 1000;
+    }
   .wrap_cloud {
     top: -325px;
   }
@@ -97,13 +110,21 @@
     width: 55px;
   }
   .time_11 {
-    float: left;
-    width: 2%;
-    left: 0;
-    top: 589px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
+      float: left;
+      width: 2%;
+      left: 0;
+      top: 589px;
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+      -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }  .time_11 > *:nth-child(1) {
+      -ms-grid-row: 1;
+      -ms-grid-column: 1;
+    }  .time_11 > *:nth-child(2) {
+      -ms-grid-row: 2;
+      -ms-grid-column: 1;
+    }
   #spaceman {
     top: 466px;
     left: 6%;
@@ -119,13 +140,17 @@
     padding: 18px;
   }
   #same {
-    left: 45%;
-    grid-row: 2 / 3;
-    grid-column: 1 / 2;
-    top: 40px;
-    font-size: 13px;
-    width: 120%;
-  }
+     left: 45%;
+     -ms-grid-row: 2;
+     -ms-grid-row-span: 1;
+     grid-row: 2 / 3;
+     -ms-grid-column: 1;
+     -ms-grid-column-span: 1;
+     grid-column: 1 / 2;
+     top: 40px;
+     font-size: 13px;
+     width: 120%;
+   }
 
   .wrap_foo {
     top: -1400px;
@@ -136,13 +161,14 @@
     left: 13%;
   }
   .descr_form {
-    top: 471px;
-    display: grid;
-    width: 91%;
-    height: 323px;
-    font-size: 12px;
-    z-index: 1000;
-  }
+     top: 471px;
+     display: -ms-grid;
+     display: grid;
+     width: 91%;
+     height: 323px;
+     font-size: 12px;
+     z-index: 1000;
+   }
   .wrap_cloud {
     top: -325px;
   }
@@ -180,13 +206,21 @@
     width: 55px;
   }
   .time_11 {
-    float: left;
-    width: 2%;
-    left: 47%;
-    top: 336px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
+      float: left;
+      width: 2%;
+      left: 47%;
+      top: 336px;
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+      -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }  .time_11 > *:nth-child(1) {
+      -ms-grid-row: 1;
+      -ms-grid-column: 1;
+    }  .time_11 > *:nth-child(2) {
+      -ms-grid-row: 2;
+      -ms-grid-column: 1;
+    }
   #spaceman {
     top: 408px;
     left: 10%;
@@ -204,13 +238,17 @@
     top: 15px;
   }
   #same {
-    left: 45%;
-    grid-row: 2 / 3;
-    grid-column: 1 / 2;
-    top: 40px;
-    font-size: 13px;
-    width: 102%;
-  }
+     left: 45%;
+     -ms-grid-row: 2;
+     -ms-grid-row-span: 1;
+     grid-row: 2 / 3;
+     -ms-grid-column: 1;
+     -ms-grid-column-span: 1;
+     grid-column: 1 / 2;
+     top: 40px;
+     font-size: 13px;
+     width: 102%;
+   }
 
   .wrap_foo {
     top: -1400px;
@@ -221,13 +259,14 @@
     left: 13%;
   }
   .descr_form {
-    top: 716px;
-    display: grid;
-    width: 93%;
-    height: 323px;
-    font-size: 12px;
-    z-index: 1000;
-  }
+     top: 716px;
+     display: -ms-grid;
+     display: grid;
+     width: 93%;
+     height: 323px;
+     font-size: 12px;
+     z-index: 1000;
+   }
   .wrap_cloud {
     top: -325px;
   }
