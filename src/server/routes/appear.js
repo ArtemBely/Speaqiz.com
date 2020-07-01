@@ -4,12 +4,15 @@ import { StaticRouter } from 'react-router-dom';
 import { renderToString } from 'react-dom/server';
 import serialize from 'serialize-javascript';
 import multer from 'multer';
+import multerS3 from 'multer-s3';
+import aws from 'aws-sdk';
 import passport from 'passport';
 import Question from '../models/question';
 import User from '../models/registration';
 import Todoslist from '../../components/Todoslist';
 
 const router = express.Router();
+
 
 router.get('/', async (req, res, next) => {
   const cond = req.isAuthenticated();
@@ -38,14 +41,13 @@ router.get('/', async (req, res, next) => {
 
 });
 
-const storage = multer.diskStorage({
-  destination: function(req, file, cb) {
-    cb(null, './public_back/uploads/');
-  },
-  filename: function(req, file, cb) {
-    cb(null, Date.now() + file.originalname);
-  }
+aws.config.update({
+  secretAccessKey: 'xuL0fxQF4XGnu7EWh/Ti89ACExr+5NeDckPXqldy',
+  accessKeyId: 'AKIAJE32G65JRVPUGIUA',
+  region: 'ap-northeast-2'
 });
+
+const s3 = new aws.S3();
 
 const fileFilter = (req, file, cb) => {
   if( file.mimetype === 'image/png' || file.mimetype === 'image/jpg' || file.mimetype === 'image/jpeg' || file.mimetipe === 'image/svg') {
@@ -54,23 +56,33 @@ const fileFilter = (req, file, cb) => {
   else  { cb(null, false); }
 };
 
-const upload = multer({
- storage: storage,
- limits: {
-    fileSize:  1024 * 1024 * 5
-  },
-  fileFilter: fileFilter
+var upload = multer({
+  fileFilter: fileFilter,
+  limits:{ fileSize: 5000000 },
+  storage: multerS3({
+    s3: s3,
+    bucket: 'speaqiz-images',
+    acl: 'public-read',
+    metadata: function (req, file, cb) {
+      cb(null, {fieldName: 'META_DATA'});
+    },
+    key: function (req, file, cb) {
+      cb(null, Date.now().toString())
+    }
+  })
 });
 
-router.post('/', upload.single('cover'), async (req, res, next) => {
-  const fileName = req.file !=null ? req.file.filename : null
+
+router.post('/',  upload.single('cover'), async (req, res, next) => {
+const fileName = req.file !=null ? req.file.filename : null
+
   let question = new Question ({
     name: req.body.name,
     first: req.body.first,
     second: req.body.second,
     third: req.body.third,
     right: req.body.right,
-    coverImageName: fileName
+    coverImageName: req.file.location
   });
 
   let user = req.user;
