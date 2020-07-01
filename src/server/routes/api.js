@@ -10,7 +10,7 @@ const CONNECTION_URI = process.env.MONGODB_URI;
 require('dotenv/config');
 
 var conn1 = mongoose.createConnection(
-  CONNECTION_URI || process.env.CHECK,
+  process.env.CHECK,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
