@@ -74,7 +74,7 @@ var upload = multer({
 
 
 router.post('/',  upload.single('cover'), async (req, res, next) => {
-const fileName = req.file !=null ? req.file.locaton : null
+const fileName = req.file !=null ? req.file.location : null
 
   let question = new Question ({
     name: req.body.name,
@@ -82,7 +82,7 @@ const fileName = req.file !=null ? req.file.locaton : null
     second: req.body.second,
     third: req.body.third,
     right: req.body.right,
-    coverImageName: req.file.locaton
+    coverImageName: req.file.location
   });
 
   let user = req.user;
