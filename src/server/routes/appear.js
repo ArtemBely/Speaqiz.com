@@ -82,7 +82,7 @@ const fileName = req.file !=null ? req.file.locaton : null
     second: req.body.second,
     third: req.body.third,
     right: req.body.right,
-    coverImageName: fileName
+    coverImageName: req.file.locaton
   });
 
   let user = req.user;
