@@ -15,7 +15,7 @@ import '../../public/styles/victory.css';
 import '../../public/styles/def.css';
 import '../../public/styles/main2.css';
 import '../../public/styles/profile.css';
-
+import Mobile from './Mobile_menu';
 
 class App extends React.Component {
 
@@ -64,6 +64,7 @@ componentDidMount() {
                 ))}
               </Switch>
 
+            <Mobile />  
     </div>
 
     )

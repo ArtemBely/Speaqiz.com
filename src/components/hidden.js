@@ -9,3 +9,4 @@
     "version": "7.0.0-beta.0"
   }
 ]
+https://dashboard.heroku.com/apps/vast-tundra-39777/api/profile

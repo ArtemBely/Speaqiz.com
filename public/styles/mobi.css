@@ -1,0 +1,360 @@
+@media (min-width: 320px) and (max-width: 360px) and (orientation: portrait) {
+  .mobile {
+        z-index: 1000;
+        position: fixed;
+        height: 400px;
+        background-color: #2ECCFA;
+        width: 37%;
+        left: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        top: 0;
+        margin: 0;
+        border-radius: 0 0 10px 0;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        -webkit-transform: translateX(-135px);
+            -ms-transform: translateX(-135px);
+                transform: translateX(-135px);
+  }
+  .limenu {
+        list-style: none;
+        letter-spacing: 1px;
+  }
+  .ulmenu {
+        position: relative;
+        top: 90px;
+        left: -10px;
+        line-height: 40px;
+  }
+  .movi {
+        -webkit-transform: translateX(0px);
+            -ms-transform: translateX(0px);
+                transform: translateX(0px);
+  }
+  .claa {
+        position: absolute;
+        width: 26px;
+        height: 2px;
+        border-radius: 20px;
+        background-color: white;
+        left: 20px;
+  }
+  .claa:nth-child(0) {
+          -webkit-transition: 0.2s;
+          -o-transition: 0.2s;
+          transition: 0.2s;
+    }
+    .claa:nth-child(1) {
+          top: 8px;
+          -webkit-transition: 0.2s;
+          -o-transition: 0.2s;
+          transition: 0.2s;
+    }
+    .claa:nth-child(2) {
+          top: 16px;
+          -webkit-transition: 0.2s;
+          -o-transition: 0.2s;
+          transition: 0.2s;
+    }
+  .wrap_close {
+        position: relative;
+        width: 100px;
+        height: 100px;
+  }
+  .link_li {
+        color: white;
+        text-decoration: none;
+  }
+  .actlink_li {
+        color: #3a7bd5;
+  }
+  .wrap_pi {
+        position: relative;
+        left: 50%;
+        width: 100px;
+        height: 100px;
+  }
+  .from_up {
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+        top: 8px !important;
+        left: 20px;
+        width: 30px;
+  }
+  .from_down {
+        -webkit-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+        top: 8px !important;
+        left: 20px;
+        width: 30px;
+  }
+  .obso {
+    opacity: 0;
+  }
+  .wr_mob {
+        position: absolute;
+        left: 115px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        height: 51px;
+        width: 56px;
+        background-color: #2ECCFA;
+        z-index: 1000;
+        top: 0px;
+        border-radius: 0 100% 100% 0;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+    }
+  .change_left {
+        left: 77px !important;
+    }
+}
+@media (min-width: 361px) and (max-width: 1000px) and (orientation: portrait) {
+
+  .mobile {
+        z-index: 1000;
+        position: fixed;
+        height: 400px;
+        background-color: #2ECCFA;
+        width: 37%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        left: 0;
+        top: 0;
+        margin: 0;
+        border-radius: 0 0 10px 0;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        -webkit-transform: translateX(-154px);
+            -ms-transform: translateX(-154px);
+                transform: translateX(-154px);
+  }
+  .limenu {
+        list-style: none;
+        letter-spacing: 1px;
+  }
+  .ulmenu {
+        position: relative;
+        top: 90px;
+        left: -10px;
+        line-height: 40px;
+  }
+  .movi {
+        -webkit-transform: translateX(0px);
+            -ms-transform: translateX(0px);
+                transform: translateX(0px);
+  }
+  .claa {
+        position: absolute;
+        width: 26px;
+        height: 2px;
+        border-radius: 20px;
+        background-color: white;
+        left: 20px;
+  }
+  .claa:nth-child(0) {
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+  }
+  .claa:nth-child(1) {
+    top: 8px;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+  }
+  .claa:nth-child(2) {
+    top: 16px;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+  }
+
+.wrap_close {
+      position: relative;
+      width: 100px;
+      height: 100px;
+}
+.link_li {
+      color: white;
+      text-decoration: none;
+}
+.actlink_li {
+      color: #3a7bd5;
+}
+.wrap_pi {
+      position: relative;
+      left: 50%;
+      width: 100px;
+      height: 100px;
+}
+.from_up {
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 8px !important;
+    left: 20px;
+    width: 30px;
+}
+.from_down {
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    top: 8px !important;
+    left: 20px;
+    width: 30px;
+}
+.obso {
+  opacity: 0;
+}
+.wr_mob {
+      position: absolute;
+      left: 138px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      height: 51px;
+      width: 56px;
+      background-color: #2ECCFA;
+      z-index: 1000;
+      top: 0px;
+      border-radius: 0 100% 100% 0;
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s;
+  }
+
+.change_left {
+      left: 77px !important;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 1000px) and (orientation: landscape) {
+
+  .mobile {
+        z-index: 1000;
+        position: fixed;
+        height: 400px;
+        background-color: #2ECCFA;
+        width: 16%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        left: 0;
+        top: 0;
+        margin: 0;
+        border-radius: 0 0 10px 0;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        -webkit-transform: translateX(-154px);
+            -ms-transform: translateX(-154px);
+                transform: translateX(-154px);
+  }
+  .limenu {
+        list-style: none;
+        letter-spacing: 1px;
+  }
+  .ulmenu {
+        position: relative;
+        top: 90px;
+        left: -10px;
+        line-height: 40px;
+  }
+  .movi {
+        -webkit-transform: translateX(0px);
+            -ms-transform: translateX(0px);
+                transform: translateX(0px);
+  }
+  .claa {
+        position: absolute;
+        width: 26px;
+        height: 2px;
+        border-radius: 20px;
+        background-color: white;
+        left: 20px;
+  }
+  .claa:nth-child(0) {
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+  }
+  .claa:nth-child(1) {
+    top: 8px;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+  }
+  .claa:nth-child(2) {
+    top: 16px;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+  }
+
+.wrap_close {
+      position: relative;
+      width: 100px;
+      height: 100px;
+}
+.link_li {
+      color: white;
+      text-decoration: none;
+}
+.actlink_li {
+      color: #3a7bd5;
+}
+.wrap_pi {
+      position: relative;
+      left: 50%;
+      width: 100px;
+      height: 100px;
+}
+.from_up {
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 8px !important;
+    left: 20px;
+    width: 30px;
+}
+.from_down {
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    top: 8px !important;
+    left: 20px;
+    width: 30px;
+}
+.obso {
+  opacity: 0;
+}
+.wr_mob {
+      position: absolute;
+      left: 138px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      height: 51px;
+      width: 56px;
+      background-color: #2ECCFA;
+      z-index: 1000;
+      top: 0px;
+      border-radius: 0 100% 100% 0;
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s;
+  }
+.change_left {
+      left: 77px !important;
+  }
+}

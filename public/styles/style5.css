@@ -21,6 +21,9 @@
   -ms-grid-row: 2;
   -ms-grid-column: 2;
 }
+.mobile {
+  display: none;
+}
 .comm {
   width: 50%;
 }
