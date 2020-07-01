@@ -4,7 +4,7 @@ import axios from 'axios';
 
  async function getRandom() {
 
-    return await axios.get('http://127.0.0.1:8888/api/smash')
+    return await axios.get('https://vast-tundra-39777.herokuapp.com/api/smash')
     .then(res => {
       let question = res.data;
       return question;
@@ -19,7 +19,7 @@ import axios from 'axios';
 
   async function getRaiting() {
 
-    return await axios.get('http://127.0.0.1:8888/api/profile')
+    return await axios.get('https://vast-tundra-39777.herokuapp.com/api/profile')
     .then(res => {
       let raiting = res.data;
       return raiting;

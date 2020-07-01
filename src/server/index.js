@@ -139,4 +139,4 @@ app.use((req, res, next) => {  //<-- заменить если появится 
 });
 
 
-app.listen(8888, () => { console.log('Server started!'); })
+app.listen(port, () => { console.log('Server started!'); })
