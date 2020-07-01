@@ -28,7 +28,7 @@ constructor(props) {
     question,
     randomQuest: '',
     count: 0,
-    check: 'q',
+    check: 'qq',
     control: ''
   }
 
