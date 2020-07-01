@@ -66,9 +66,7 @@ componentDidMount() {
                   window.location.replace("/salamba");
                       clearInterval(cle);
                            }
-                            if(i === 7) {
-                              clearInterval(cle);
-                            }
+
                              if(this.state.count === 3) {
                                clearInterval(cle);
                              }
