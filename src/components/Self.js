@@ -160,7 +160,7 @@ setTimeout(() => { this.setState({ control: '' }); }, 1000);
       this.rad2.current.classList.remove('redd');
       this.rad3.current.classList.remove('redd');
     }},500);
-
+    console.log(this.state.count);
   }
 
   else { window.location.replace('/salamba'); }
