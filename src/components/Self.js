@@ -150,7 +150,7 @@ let va = this.va.current;
 this.setState({ control: this.state.check });
 setTimeout(() => { this.setState({ control: '' }); }, 1000);
 
-  if(va.value.toLowerCase() === this.state.randomQuest.right.toLowerCase() && this.state.count < 3) {
+  if(va.value === this.state.randomQuest.right && this.state.count < 3) {
     alert('Правильно!');
       this.setState(prevState => ({ count: prevState.count + 1 }));
     setTimeout (() => {
