@@ -201,7 +201,7 @@ loading = () => {
     return (
         <div className="quest">
           <p id="name_q"> {this.state.randomQuest.name} </p>
-            <img src={'/public_back/uploads/' + this.state.question[32].coverImageName} className="im_q" alt="squere"/>
+            <img src={'/public_back/uploads/' + this.state.question[33].coverImageName} className="im_q" alt="squere"/>
                <div className="answer" ref={this.rad} onClick={this.cla}> {this.state.randomQuest.first} </div>
              <div className="answer" ref={this.rad2} onClick={this.cla2}> {this.state.randomQuest.second} </div>
              <div className="answer" ref={this.rad3} onClick={this.cla3}> {this.state.randomQuest.third} </div>
