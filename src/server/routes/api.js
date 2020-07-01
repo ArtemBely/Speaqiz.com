@@ -30,7 +30,7 @@ const Model2 = conn1.model('Question', new mongoose.Schema({
 
 router.get('/smash', async (req, res) => {
   let quest = await Model2.find();
-  res.json(quest, quest.length);
+  res.json(quest);
 });
 
 router.get('/profile', async (req, res, next) => {
