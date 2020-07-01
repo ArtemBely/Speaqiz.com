@@ -19,7 +19,7 @@ constructor(props) {
 
   if (__isBrowser__) {
     question = window.__INITIAL_DATA__;
-    console.log(question);
+
   } else {
     question = this.props.staticContext.data;
   }
@@ -66,7 +66,9 @@ componentDidMount() {
                   window.location.replace("/salamba");
                       clearInterval(cle);
                            }
-
+                           if(i === 5) {
+                             clearInterval(cle);
+                           }
                              if(this.state.count === 3) {
                                clearInterval(cle);
                              }
@@ -101,7 +103,6 @@ cla = () => {
   }
   this.setState({ check: this.state.randomQuest.first });
   setTimeout (() => {va.value = this.state.check;
-                    console.log(this.state.check);
   },50);
 }}
 
@@ -117,7 +118,6 @@ cla2 = () => {
   }
   this.setState({ check: this.state.randomQuest.second })
   setTimeout (() => {va.value = this.state.check;
-                    console.log(this.state.check);
   },50);
 }}
 
@@ -136,7 +136,6 @@ cla3 = () => {
 
   this.setState({ check: this.state.randomQuest.third });
   setTimeout (() => {va.value = this.state.check;
-                    console.log(this.state.check);
   },50);
 }}
 
@@ -152,9 +151,9 @@ setTimeout(() => { this.setState({ control: '' }); }, 1000);
 
   if(va.value === this.state.randomQuest.right && this.state.count < 3) {
     alert('Правильно!');
-      this.setState(prevState => ({ count: prevState.count + 1 }));
     setTimeout (() => {
     if(this.state.count < 3){
+      this.setState({ count: this.state.count + 1 })
       this.setState({ randomQuest: this.state.question[getRandom2(0, (this.state.question.length - 1))] });
       this.rad.current.classList.remove('redd');
       this.rad2.current.classList.remove('redd');
@@ -196,12 +195,13 @@ dudu = () => {
   }
 }
 
+
 loading = () => {
-  if(this.state.randomQuest.name) {
+  if(this.state.question) {
     return (
         <div className="quest">
           <p id="name_q"> {this.state.randomQuest.name} </p>
-            <img src={'/public_back/uploads/' + this.state.randomQuest.coverImageName} className="im_q" alt="squere"/>
+            <img src={'/public_back/uploads/' + this.state.question[31].coverImageName} className="im_q" alt="squere"/>
                <div className="answer" ref={this.rad} onClick={this.cla}> {this.state.randomQuest.first} </div>
              <div className="answer" ref={this.rad2} onClick={this.cla2}> {this.state.randomQuest.second} </div>
              <div className="answer" ref={this.rad3} onClick={this.cla3}> {this.state.randomQuest.third} </div>
@@ -211,6 +211,8 @@ loading = () => {
     )
   }
 }
+
+
 
 simp = () => {
   if(this.state.randomQuest.second) {
@@ -222,9 +224,9 @@ simp = () => {
 
 countDown = () => {
   if(this.state.randomQuest.third) {
-    return (
-      <div ref={this.plus} className="countDown1">{this.state.count} / 3</div>
-    )
+      return (
+        <div ref={this.plus} className="countDown1">{this.state.count} / 3</div>
+      )
   }
 }
 

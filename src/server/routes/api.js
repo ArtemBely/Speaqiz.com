@@ -5,7 +5,6 @@ import Question from '../models/question';
 import User from '../models/registration';
 const router = express.Router();
 
-const CONNECTION_URI = process.env.MONGODB_URI;
 
 require('dotenv/config');
 
