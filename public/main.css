@@ -2434,6 +2434,7 @@ body {
 }
 input {
   border-radius: 5px;
+  z-index: 1000;
 }
 .sub {
   display: -ms-grid;
@@ -4881,6 +4882,7 @@ input {
   }
   .descr_form > input {
     width: 97%;
+    z-index: 1000;
   }
   #but_quest {
     top: 48px;

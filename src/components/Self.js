@@ -150,15 +150,16 @@ this.setState({ control: this.state.check });
 setTimeout(() => { this.setState({ control: '' }); }, 1000);
 
   if(va.value === this.state.randomQuest.right && this.state.count < 3) {
-    alert('Правильно!');
+    confirm('Правильно!');
     setTimeout (() => {
-    if(this.state.count < 3){
+
       this.setState({ count: this.state.count + 1 })
       this.setState({ randomQuest: this.state.question[getRandom2(0, (this.state.question.length - 1))] });
       this.rad.current.classList.remove('redd');
       this.rad2.current.classList.remove('redd');
       this.rad3.current.classList.remove('redd');
-    }},500);
+
+    },500);
     console.log(this.state.count);
   }
 
@@ -195,13 +196,21 @@ dudu = () => {
   }
 }
 
+images = () => {
+  if(this.state.randomQuest && this.state.randomQuest.coverImageName) {
+    return (
+      <img src={this.state.randomQuest.coverImageName} className="im_q" alt="squere"/>
+    )
+  }
+  else { return null }
+}
 
 loading = () => {
   if(this.state.question) {
     return (
         <div className="quest">
           <p id="name_q"> {this.state.randomQuest.name} </p>
-            <img src={this.state.randomQuest.coverImageName} className="im_q" alt="squere"/>
+            {this.images()}
                <div className="answer" ref={this.rad} onClick={this.cla}> {this.state.randomQuest.first} </div>
              <div className="answer" ref={this.rad2} onClick={this.cla2}> {this.state.randomQuest.second} </div>
              <div className="answer" ref={this.rad3} onClick={this.cla3}> {this.state.randomQuest.third} </div>
@@ -223,7 +232,7 @@ simp = () => {
 }
 
 countDown = () => {
-  if(this.state.randomQuest.third) {
+  if(this.state.randomQuest) {
       return (
         <div ref={this.plus} className="countDown1">{this.state.count} / 3</div>
       )

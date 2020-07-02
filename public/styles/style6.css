@@ -125,6 +125,7 @@ body {
 }
 input {
   border-radius: 5px;
+  z-index: 1000;
 }
 .sub {
   display: -ms-grid;
