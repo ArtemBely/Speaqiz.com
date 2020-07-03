@@ -64,7 +64,7 @@ componentDidMount() {
                 ))}
               </Switch>
 
-            <Mobile />  
+            <Mobile />
     </div>
 
     )

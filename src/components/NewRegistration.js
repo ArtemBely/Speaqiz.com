@@ -17,17 +17,21 @@ class NewRegistration extends React.Component {
       let errors;
       let success;
       let cond;
+      let cond2;
       if(__isBrowser__) {
         errors = window.__INITIAL_DATA__;
         cond = window.__INITIAL_INFO__;
         success = window.__INITIAL_STATE__;
+        cond2 = window.__INITIAL_COND__;
       }
 
      this.state = {
        errors,
        cond,
+       cond2,
        success
       }
+      console.log(this.state.cond2);
 
       this.ind = React.createRef();
       this.first = React.createRef();
@@ -104,10 +108,12 @@ class NewRegistration extends React.Component {
            opacity: (this.state.errors || this.state.success ? 0 : 1)
          }}>
          Форма регистрации</p>
-          <form className="registration" action="/registration" method="POST">
+          <form className="registration" action="/registration" method="POST" style={{
+            display: (this.state.cond2 ? 'grid' : 'none')
+          }}>
             <input className="field" type="text" name="name" placeholder="Введите ваше имя"/>
-                <input className="field" type="text" name="lastname" placeholder="Введите ваше фамилие"/>
-                  <input className="field" type="text" name="email" placeholder="Введите ваше email"/>
+                <input className="field" type="text" name="lastname" placeholder="Введите вашу фамилию"/>
+                  <input className="field" type="text" name="email" placeholder="Введите ваш email"/>
                   <input className="field" type="text" name="password" placeholder="Введите ваш пароль"/>
                  <input className="field" type="text" name="confirm" placeholder="Подтвердите ваш пароль"/>
                  <input type="hidden" name="score" value={0} />

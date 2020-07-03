@@ -26,6 +26,7 @@ passport.deserializeUser(function(id, done) {
 
 router.get('/', notLoggedIn, (req, res, next) => {
   const cond = req.isAuthenticated();
+  const cond2 = 'q';
   const reg = renderToString(
     <StaticRouter>
       <NewRegistration />
@@ -40,6 +41,7 @@ router.get('/', notLoggedIn, (req, res, next) => {
                  <meta name="viewport" content="width=device-width, initial-scale=1">
                   <script src='bundle.js' defer></script>
                     <script>window.__INITIAL_INFO__= ${serialize(cond)}</script>
+                     <script>window.__INITIAL_COND__= ${serialize(cond2)}</script>
                       </head>
                     <body>
                    <div id="app">
@@ -68,6 +70,7 @@ router.post('/', (req, res, done) => {
   if(errors) {
     console.log(errors);
     const context = { errors };
+    const cond2 = 'q';
     const cond = req.isAuthenticated();
     const mar = renderToString(
       <StaticRouter location={req.url} context={context}>
@@ -84,7 +87,8 @@ router.post('/', (req, res, done) => {
                   <meta name="viewport" content="width=device-width, initial-scale=1">
                    <script src='bundle.js' defer></script>
                      <script>window.__INITIAL_DATA__ = ${serialize(errors)}</script>
-                     <script>window.__INITIAL_INFO__ = ${serialize(cond)}</script>
+                      <script>window.__INITIAL_INFO__ = ${serialize(cond)}</script>
+                       <script>window.__INITIAL_COND__= ${serialize(cond2)}</script>
                       </head>
                     <body>
                    <div id="app">
@@ -103,6 +107,7 @@ router.post('/', (req, res, done) => {
             if (user) {
               const errors = [{ 'msg' : 'Email уже используется' }];
               const cond = req.isAuthenticated();
+              const cond2 = 'q';
               const useIn = renderToString(
                 <StaticRouter>
                     <NewRegistration />
@@ -118,7 +123,8 @@ router.post('/', (req, res, done) => {
                                       <meta name="viewport" content="width=device-width, initial-scale=1">
                                         <script src='bundle.js' defer></script>
                                          <script>window.__INITIAL_DATA__ = ${serialize(errors)}</script>
-                                         <script>window.__INITIAL_INFO__ = ${serialize(cond)}</script>
+                                           <script>window.__INITIAL_INFO__ = ${serialize(cond)}</script>
+                                            <script>window.__INITIAL_COND__= ${serialize(cond2)}</script>
                                             </head>
                                           <body>
                                          <div id="app">
@@ -145,6 +151,7 @@ router.post('/', (req, res, done) => {
           });
 
           const cond = true;
+          const cond2 = 'q';
           const indicate = 'Вы успешно зарегестрировались и теперь можете войти в личный кабинет!';
           const they = renderToString(
             <StaticRouter>
@@ -161,6 +168,7 @@ router.post('/', (req, res, done) => {
                                <script src='bundle.js' defer></script>
                                 <script>window.__INITIAL_INFO__ = ${serialize(cond)}</script>
                                   <script>window.__INITIAL_STATE__ = ${serialize(indicate)}</script>
+                                   <script>window.__INITIAL_COND__= ${serialize(cond2)}</script>
                                     </head>
                                   <body>
                                  <div id="app">

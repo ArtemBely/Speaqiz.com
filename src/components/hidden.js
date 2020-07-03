@@ -10,7 +10,7 @@
   }
 ]
 https://vast-tundra-39777.herokuapp.com/api/smash
-http://127.0.0.1:8888/api/smash
+https://speaqiz.com/api/smash
 CONNECTION_URI || ;
 
 const storage = multer.diskStorage({

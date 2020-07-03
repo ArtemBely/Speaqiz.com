@@ -2382,7 +2382,7 @@ body {
     position: relative;
     top: 10px;
     padding-left: 45px;
-    width: 60%;
+    width: 218px;
     left: 8%;
     height: 30px;
     background-color: #3a7bd5;
@@ -2421,7 +2421,7 @@ body {
   position: relative;
   top: 44px;
   padding-left: 45px;
-  width: 60%;
+  width: 218px;
   left: 8%;
   height: 30px;
   background-color: #3a7bd5;
@@ -2474,8 +2474,9 @@ input {
 }
 .c_name {
   position: absolute;
-  top: -130px;
-  left: 33%;
+  top: -142px;
+  left: 34%;
+  font-size: 30px;
 }
 #app {
   position: relative;
@@ -2487,7 +2488,7 @@ input {
 .image_signin {
   position: absolute;
   width: 20px;
-  left: 20%;
+  left: 10%;
   z-index: 1000;
 }
 #letter {
