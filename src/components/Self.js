@@ -59,24 +59,23 @@ componentDidMount() {
 }
 
 
-      var i = 10
+      var i = 15
          const cle = setInterval(()=> {
             i = i - 1;
                 if(i === 0) {
                   window.location.replace("/salamba");
                       clearInterval(cle);
                            }
-                           if(i === 5) {
-                             clearInterval(cle);
-                           }
+
                              if(this.state.count === 3) {
                                clearInterval(cle);
                              }
 
                               if ( this.state.control === this.state.randomQuest.right ) {
-                                i = 10;
+                                i = 15;
                                 console.log(this.state.control, this.state.randomQuest.right);
                               }
+
                               else { console.log(this.state.control, this.state.randomQuest.right); }
 
                               if(window.location.pathname !== "/smash") {
@@ -152,8 +151,7 @@ setTimeout(() => { this.setState({ control: '' }); }, 1000);
   if(va.value === this.state.randomQuest.right && this.state.count < 3) {
     confirm('Правильно!');
     setTimeout (() => {
-
-      this.setState({ count: this.state.count + 1 })
+      this.setState({ count: this.state.count + 1 });
       this.setState({ randomQuest: this.state.question[getRandom2(0, (this.state.question.length - 1))] });
       this.rad.current.classList.remove('redd');
       this.rad2.current.classList.remove('redd');
@@ -226,7 +224,9 @@ loading = () => {
 simp = () => {
   if(this.state.randomQuest.second) {
     return (
-      <div ref={this.st} className="time"> </div>
+      <div ref={this.st} className="time" style={{
+        opacity: (this.st.current && this.st.current.innerHTML % 2 ? 0.99 : 0.98)
+      }}> </div>
     )
   }
 }
@@ -234,7 +234,9 @@ simp = () => {
 countDown = () => {
   if(this.state.randomQuest) {
       return (
-        <div ref={this.plus} className="countDown1">{this.state.count} / 3</div>
+        <div ref={this.plus} className="countDown1" style={{
+          opacity: (this.state.count % 2 ? 1 : 0.99)
+        }}>{this.state.count} / 3</div>
       )
   }
 }

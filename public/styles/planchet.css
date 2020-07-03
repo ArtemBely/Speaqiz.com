@@ -13,6 +13,9 @@
   .forma {
     left: 35%;
   }
+  .answer {
+    font-size: 16px;
+  }
   #one {
     font-size: 25px;
     width: 600px;

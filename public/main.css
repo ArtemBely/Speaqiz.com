@@ -114,6 +114,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   color: white;
+  font-size: 25px;
 }
 #ans {
   position: relative;
@@ -1318,6 +1319,9 @@
     }
     .contact_us {
       left: 25%;
+    }
+    .answer {
+      font-size: 14px;
     }
 
 }
@@ -3547,6 +3551,9 @@ input {
   .forma {
     left: 35%;
   }
+  .answer {
+    font-size: 16px;
+  }
   #one {
     font-size: 25px;
     width: 600px;
@@ -4453,9 +4460,9 @@ input {
   }
   .cat_2 {
     height: 250px;
-    top: -47px;
+    top: -52px;
     width: 100%;
-    left: 20%;
+    left: 10%;
   }
   #send {
     width: 36%;
@@ -4487,7 +4494,7 @@ input {
   }
   #but {
     top: 2px;
-    left: 4%;
+    left: 7%;
   }
 }
 
@@ -5351,7 +5358,7 @@ input {
     top: -180px;
   }
   .more {
-    top: 1585px;
+    top: 1635px;
     left: 2%;
     z-index: 1;
     -webkit-box-shadow: 0px 8px 11px #2ECCFA;
@@ -5397,13 +5404,14 @@ input {
     top: 67px !important;
   }
   #send {
-    left: 52%;
+    left: 50%;
     top: 60px;
   }
   #right {
-    top: 16px;
-    left: -22px;
+    top: 26px;
+    left: -15px;
     width: 71%;
+    height: 30px;
   }
 }
 

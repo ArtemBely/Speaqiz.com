@@ -96,7 +96,7 @@ promise
   `<!DOCTYPE html>
       <html>
           <head>
-            <title>SSR</title>
+            <title>Speaqiz - лучший помощник в изучении языка</title>
               <link rel="stylesheet" type="text/css" href="main.css">
                <meta name="viewport" content="width=device-width, initial-scale=1">
                <meta name="keywords" content="Английский, викторина, учить язык, мотивация, знания, саморазвитие, развитие,

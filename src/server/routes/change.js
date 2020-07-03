@@ -20,7 +20,7 @@ router.get('/', isLoggedIn, async (req, res, next) => {
     `<!DOCTYPE html>
         <html>
             <head>
-              <title>SSR</title>
+              <title>Speaqiz - Профиль</title>
                    <link rel="stylesheet" type="text/css" href="main.css">
                      <meta name="viewport" content="width=device-width, initial-scale=1">
                        <script src='bundle.js' defer></script>
@@ -65,7 +65,7 @@ if(name.length > 0 || lastname.length > 0|| email.length > 0 || city.length > 0 
         `<!DOCTYPE html>
             <html>
                 <head>
-                  <title>SSR</title>
+                  <title>Speaqiz - Профиль</title>
                        <link rel="stylesheet" type="text/css" href="main.css">
                          <meta name="viewport" content="width=device-width, initial-scale=1">
                           <script src='bundle.js' defer></script>
@@ -97,7 +97,7 @@ else {
       `<!DOCTYPE html>
           <html>
               <head>
-                <title>SSR</title>
+                <title>Speaqiz - Профиль</title>
                     <link rel="stylesheet" type="text/css" href="main.css">
                       <meta name="viewport" content="width=device-width, initial-scale=1">
                         <script src='bundle.js' defer></script>
@@ -139,7 +139,7 @@ user.score = req.user.score
       `<!DOCTYPE html>
           <html>
               <head>
-                <title>SSR</title>
+                <title>Speaqiz - Профиль</title>
                     <link rel="stylesheet" type="text/css" href="main.css">
                       <meta name="viewport" content="width=device-width, initial-scale=1">
                         <script src='bundle.js' defer></script>

@@ -25,7 +25,7 @@ router.get('/', async (req, res, next) => {
     `<!DOCTYPE html>
         <html>
             <head>
-              <title>SSR</title>
+              <title>Speaqiz - лучший помощник в изучении языка</title>
                    <link rel="stylesheet" type="text/css" href="main.css">
                      <meta name="viewport" content="width=device-width, initial-scale=1">
                        <script src='bundle.js' defer></script>
@@ -107,7 +107,7 @@ const fileName = req.file !=null ? req.file.location : null
     `<!DOCTYPE html>
         <html>
             <head>
-              <title>SSR</title>
+              <title>Speaqiz - лучший помощник в изучении языка</title>
                 <link rel="stylesheet" type="text/css" href="main.css">
                   <meta name="viewport" content="width=device-width, initial-scale=1">
                     <script src='bundle.js' defer></script>

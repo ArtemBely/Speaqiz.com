@@ -114,6 +114,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   color: white;
+  font-size: 25px;
 }
 #ans {
   position: relative;

@@ -35,7 +35,7 @@ router.get('/', notLoggedIn, (req, res, next) => {
     `<!DOCTYPE html>
         <html>
             <head>
-              <title>SSR</title>
+              <title>Speaqiz - Регистрация</title>
                 <link rel="stylesheet" type="text/css" href="main.css">
                  <meta name="viewport" content="width=device-width, initial-scale=1">
                   <script src='bundle.js' defer></script>
@@ -79,7 +79,7 @@ router.post('/', (req, res, done) => {
     `<!DOCTYPE html>
         <html>
             <head>
-              <title>SSR</title>
+              <title>Speaqiz - Регистрация</title>
                 <link rel="stylesheet" type="text/css" href="main.css">
                   <meta name="viewport" content="width=device-width, initial-scale=1">
                    <script src='bundle.js' defer></script>
@@ -113,7 +113,7 @@ router.post('/', (req, res, done) => {
                     `<!DOCTYPE html>
                           <html>
                               <head>
-                                 <title>SSR</title>
+                                 <title>Speaqiz - Регистрация</title>
                                     <link rel="stylesheet" type="text/css" href="main.css">
                                       <meta name="viewport" content="width=device-width, initial-scale=1">
                                         <script src='bundle.js' defer></script>
@@ -155,7 +155,7 @@ router.post('/', (req, res, done) => {
             `<!DOCTYPE html>
                   <html>
                       <head>
-                         <title>SSR</title>
+                         <title>Speaqiz - Регистрация</title>
                             <link rel="stylesheet" type="text/css" href="main.css">
                              <meta name="viewport" content="width=device-width, initial-scale=1">
                                <script src='bundle.js' defer></script>

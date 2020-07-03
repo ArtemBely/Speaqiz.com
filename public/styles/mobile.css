@@ -106,9 +106,9 @@
   }
   .cat_2 {
     height: 250px;
-    top: -47px;
+    top: -52px;
     width: 100%;
-    left: 20%;
+    left: 10%;
   }
   #send {
     width: 36%;
@@ -140,7 +140,7 @@
   }
   #but {
     top: 2px;
-    left: 4%;
+    left: 7%;
   }
 }
 
