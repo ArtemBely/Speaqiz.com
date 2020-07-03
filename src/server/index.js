@@ -98,6 +98,7 @@ promise
           <head>
             <title>Speaqiz - лучший помощник в изучении языка</title>
               <link rel="stylesheet" type="text/css" href="main.css">
+              <link rel="shortcut icon" href="/astronaut-3.ico" type="image/x-icon">
                <meta name="viewport" content="width=device-width, initial-scale=1">
                <meta name="keywords" content="Английский, викторина, учить язык, мотивация, знания, саморазвитие, развитие,
                английский язык, лидер, выучить английский язык быстро, бесплатно, участие в викторине, баллы, повысить навыки английского языка,
