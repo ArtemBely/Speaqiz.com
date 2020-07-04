@@ -71,9 +71,6 @@ componentDidMount() {
                                clearInterval(cle);
                              }
 
-                              if (i === 10) {
-                                clearInterval(cle);
-                              }
                               if ( this.state.control === this.state.randomQuest.right ) {
                                 i = 15;
                                 console.log(this.state.control, this.state.randomQuest.right);

@@ -34,6 +34,7 @@ router.post('/', async (req, res, next) => {
       console.log('body:', body);
       if(response.statusCode===200 || response.statusCode===303){
         const suc = 'Ваше пожелание успешно отправлено!';
+        const indicate = 'mobile';
         const mark = renderToString(
           <StaticRouter>
              <Registration />
@@ -47,7 +48,8 @@ router.post('/', async (req, res, next) => {
                         <link rel="stylesheet" type="text/css" href="main.css">
                           <meta name="viewport" content="width=device-width, initial-scale=1">
                            <script src='bundle.js' defer></script>
-                            <script>window.__INITIAL_SUC__ = ${serialize(suc)}</script>
+                             <script>window.__INITIAL_SUC__ = ${serialize(suc)}</script>
+                              <script>window.__INITIAL_INDICATE__ = ${serialize(indicate)}</script>
                               </head>
                             <body>
                            <div id="app">
@@ -60,6 +62,7 @@ router.post('/', async (req, res, next) => {
         if(response.statusCode!==200 || response.statusCode!==303){
           const suc = 'Произошла ошибка, пожалуйста, попробуйте отправить еще раз';
           const mistake = true;
+          const indicate = 'mobile';
           const mark = renderToString(
             <StaticRouter>
                <Registration />
@@ -75,6 +78,7 @@ router.post('/', async (req, res, next) => {
                              <script src='bundle.js' defer></script>
                               <script>window.__INITIAL_SUC__ = ${serialize(suc)}</script>
                                <script>window.__INITIAL_MIS__ = ${serialize(mistake)}</script>
+                                <script>window.__INITIAL_INDICATE__ = ${serialize(indicate)}</script>
                                 </head>
                               <body>
                              <div id="app">

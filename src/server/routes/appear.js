@@ -16,6 +16,7 @@ const router = express.Router();
 
 router.get('/', async (req, res, next) => {
   const cond = req.isAuthenticated();
+  const indicate = 'mobile';
   const lay = renderToString(
     <StaticRouter>
        <Todoslist />
@@ -30,6 +31,7 @@ router.get('/', async (req, res, next) => {
                      <meta name="viewport" content="width=device-width, initial-scale=1">
                        <script src='bundle.js' defer></script>
                          <script>window.__INITIAL_STATE__ = ${serialize(cond)}</script>
+                         <script>window.__INITIAL_INDICATE__ = ${serialize(indicate)}</script>
                        </head>
                      <body>
                    <div id="app">
@@ -96,6 +98,7 @@ const fileName = req.file !=null ? req.file.location : null
     question = await question.save();
     user = await user.save();
     console.log(user);
+    const indicate = 'mobile';
     const cond = req.isAuthenticated();
     const success = 'Вы заработали +1 ArtCoin! Он доступен в личном кабинете. Продолжайте в том же духе!';
     const marky = renderToString(
@@ -113,6 +116,7 @@ const fileName = req.file !=null ? req.file.location : null
                     <script src='bundle.js' defer></script>
                       <script>window.__INITIAL_SUCCESS__ = ${serialize(success)}</script>
                         <script>window.__INITIAL_STATE__ = ${serialize(cond)}</script>
+                        <script>window.__INITIAL_INDICATE__ = ${serialize(indicate)}</script>
                       </head>
                     <body>
                    <div id="app">

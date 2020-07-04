@@ -4,4 +4,4 @@ Disallow: /public_back
 Disallow: /public
 Allow: /src
 
-Sitemap: https://www.speaqiz.com/sitemap.xml
+Sitemap: https://speaqiz.com/sitemap.xml

@@ -1117,7 +1117,7 @@
     }
     .linka {
       position: relative;
-      top: 30px !important;
+      top: 14px !important;
       left: -20px !important;
     }
     .errors2 {
@@ -1321,7 +1321,7 @@
       left: 25%;
     }
     .answer {
-      font-size: 14px;
+      font-size: 16px !important;
     }
 
 }
@@ -5225,6 +5225,23 @@ input {
     min-width: 193px;
     left: 22%;
   }
+  #inp2 {
+    top: 47px;
+    padding-left: 45px;
+    width: 60%;
+    left: 8%;
+    height: 25px;
+  }
+  #inp1 {
+    top: 13px;
+    padding-left: 45px;
+    width: 60%;
+    left: 8%;
+    height: 24px;
+  }
+  .image_signin {
+    left: 5%;
+  }
   .main {
     width: 130%;
     left: -100px;
@@ -5339,6 +5356,23 @@ input {
     min-width: 193px;
     left: 41%;
   }
+  #inp2 {
+    top: 47px;
+    padding-left: 45px;
+    width: 60%;
+    left: 8%;
+    height: 25px;
+  }
+  #inp1 {
+    top: 13px;
+    padding-left: 45px;
+    width: 60%;
+    left: 8%;
+    height: 24px;
+  }
+  .image_signin {
+    left: 6%;
+  }
   .main {
     width: 130%;
     left: -100px;
@@ -5449,6 +5483,23 @@ input {
     width: 55%;
     min-width: 193px;
     left: 122%;
+  }
+  #inp2 {
+    top: 47px;
+    padding-left: 45px;
+    width: 60%;
+    left: 8%;
+    height: 25px;
+  }
+  #inp1 {
+    top: 13px;
+    padding-left: 45px;
+    width: 60%;
+    left: 8%;
+    height: 24px;
+  }
+  .image_signin {
+    left: 9%;
   }
   .main {
     width: 130%;

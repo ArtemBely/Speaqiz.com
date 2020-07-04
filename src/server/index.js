@@ -75,6 +75,9 @@ app.use('/appear', appRouter);
 app.use('/registration', regRouter);
 app.use('/telegram', telRouter);
 
+app.get('/sitemap.xml', function(req, res) {
+  res.sendFile(path.join(__dirname + '/sitemap.xml'));
+});
 
 app.get('*', (req, res, next) => {
   const activeRoute = Routes.find((route) => matchPath(req.url, route)) || {}
@@ -85,6 +88,7 @@ app.get('*', (req, res, next) => {
 promise
     .then(data => {
     const context = { data };
+    const indicate = 'mobile';
     const cond = req.isAuthenticated();
     const markup = renderToString(
       <StaticRouter location={req.url} context={context}>
@@ -107,6 +111,7 @@ promise
                 <script src='bundle.js' defer></script>
                   <script>window.__INITIAL_DATA__ = ${serialize(data)}</script>
                    <script>window.__INITIAL_STATE__ = ${serialize(cond)}</script>
+                   <script>window.__INITIAL_INDICATE__ = ${serialize(indicate)}</script>
                    <title>Практикуй английский в викторине!</title>
                     </head>
                   <body>

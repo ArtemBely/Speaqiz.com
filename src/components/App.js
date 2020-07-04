@@ -22,9 +22,20 @@ class App extends React.Component {
 constructor() {
   super()
 
+  let indicate;
+
+  if(__isBrowser__) {
+    indicate = window.__INITIAL_INDICATE__;
+  }
+
+  this.state = {
+    indicate
+  }
+
   this.spec = React.createRef();
   this.head = React.createRef();
   this.ourC = React.createRef();
+
 }
 
 change = () => {
@@ -38,6 +49,14 @@ componentDidMount() {
     this.ourC.current.style.backgroundColor = '#3a7bd5';
     this.ourC.current.style.height = '120vh';
   }
+}
+
+mobi = () => {
+ if(this.state.indicate) {
+   return (
+     <Mobile />
+   )
+ }
 }
 
   render () {
@@ -64,7 +83,7 @@ componentDidMount() {
                 ))}
               </Switch>
 
-            <Mobile />
+            {this.mobi()}
     </div>
 
     )
