@@ -1,8 +1,7 @@
 User agent: *
+Allow: /public
+Allow: /src
 Disallow: /fonts
 Disallow: /public_back
-Allow: /src/server/index.js
-Allow: /src/server/routes/appear.js 
-Allow: /src
 
 Sitemap: https://speaqiz.com/sitemap.xml
