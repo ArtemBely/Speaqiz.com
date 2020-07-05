@@ -75,6 +75,10 @@ app.use('/appear', appRouter);
 app.use('/registration', regRouter);
 app.use('/telegram', telRouter);
 
+app.get('/robots.txt', function(req, res) {
+  res.sendFile(path.join(__dirname + '/robots.txt'));
+});
+
 app.get('/sitemap.xml', function(req, res) {
   res.sendFile(path.join(__dirname + '/sitemap.xml'));
 });
@@ -104,7 +108,7 @@ promise
               <link rel="stylesheet" type="text/css" href="main.css">
               <link rel="shortcut icon" href="/images/astronaut-3.ico" type="image/x-icon">
                <meta name="viewport" content="width=device-width, initial-scale=1">
-               <meta name="keywords" content="Английский, викторина, учить язык, мотивация, знания, саморазвитие, развитие,
+               <meta name="keywords" content="Английский speaqiz, speaqiz, викторина, учить язык speaqiz, мотивация, знания, саморазвитие, развитие,
                английский язык, лидер, выучить английский язык быстро, бесплатно, участие в викторине, баллы, повысить навыки английского языка,
                задавать свой вопрос" />
                <meta name="description" content="Участвуй в викторине и учи английский бесплатно" />
