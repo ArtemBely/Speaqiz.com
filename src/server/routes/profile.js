@@ -24,6 +24,7 @@ router.get('/', isLoggedIn, async (req, res, next) => {
                   <head>
                     <title>Speaqiz - Профиль</title>
                         <link rel="stylesheet" type="text/css" href="main.css">
+                         <link rel="shortcut icon" href="/images/astronaut-3.ico" type="image/x-icon">
                            <meta name="viewport" content="width=device-width, initial-scale=1">
                              <script src='bundle.js' defer></script>
                                <script>window.__INITIAL_STATE__ = ${serialize(cond)}</script>

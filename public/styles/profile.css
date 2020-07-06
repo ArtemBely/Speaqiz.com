@@ -783,3 +783,23 @@
     height: 1350px;
   }
 }
+@media (min-width: 374px) and (max-width: 1000px) {
+  .naLa {
+    font-size: 14px !important;
+  }
+}
+@media (min-width: 374px) and (max-width: 1000px) and (orientation: portrait) {
+  .additional {
+    width: 196% !important;
+    height: 40px !important;
+    left: 5px;
+  }
+  .log {
+    width: 280% !important;
+    left: -187px !important;
+    top: 65px;
+  }
+  .wrap_full22 {
+    grid-gap: 0 54px !important;
+  }
+}
