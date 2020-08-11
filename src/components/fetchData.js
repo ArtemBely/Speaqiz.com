@@ -4,9 +4,10 @@ import axios from 'axios';
 
  async function getRandom() {
 
-    return await axios.get('https://speaqiz.com/api/smash')
+    return await axios.get('http://localhost:8888/api/smash')
     .then(res => {
       let question = res.data;
+      //console.log(question);
       return question;
     })
     .catch(err => console.log(err))
@@ -19,7 +20,7 @@ import axios from 'axios';
 
   async function getRaiting() {
 
-    return await axios.get('https://speaqiz.com/api/profile')
+    return await axios.get('http://localhost:8888/api/profile')
     .then(res => {
       let raiting = res.data;
       return raiting;

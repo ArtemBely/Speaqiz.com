@@ -85,6 +85,7 @@ app.get('/sitemap.xml', function(req, res) {
 
 app.get('*', (req, res, next) => {
   const activeRoute = Routes.find((route) => matchPath(req.url, route)) || {}
+  console.log(activeRoute);
   const promise = activeRoute.fetchInitialData ?
                   activeRoute.fetchInitialData() :
                   Promise.resolve()
@@ -93,6 +94,7 @@ promise
     .then(data => {
     const context = { data };
     const indicate = 'mobile';
+    console.log(data);
     const cond = req.isAuthenticated();
     const markup = renderToString(
       <StaticRouter location={req.url} context={context}>
@@ -149,4 +151,4 @@ app.use((req, res, next) => {  //<-- заменить если появится 
 });
 
 
-app.listen(port, () => { console.log('Server started!'); })
+app.listen(8888, () => { console.log('Server started!'); })
