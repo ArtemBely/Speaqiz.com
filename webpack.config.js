@@ -1,7 +1,7 @@
 var path = require('path');
 var webpack = require('webpack');
 var nodeExternals = require('webpack-node-externals');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+var MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 
 var browserConfig = {
